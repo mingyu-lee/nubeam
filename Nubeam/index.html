@@ -19,7 +19,6 @@
 
 
 	<link rel="prefetch" href="images/zoom.png">
-
 </head>
 
 <body>
@@ -37,7 +36,6 @@
 			<div class="nav-collapse collapse navbar-responsive-collapse">
 				<ul class="nav row">
 					<li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-1" title="Next Section"><span class="icon icon-home"></span> <span class="text">HOME</span></a></li>
-
 					<li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-3" title="Next Section"><span class="icon icon-briefcase"></span> <span class="text">PORTFOLIO</span></a></li>
       	</ul>
 				<div class="row">
@@ -58,28 +56,93 @@
 
 
 	<!-- === MAIN Background === -->
+<!--
 	<div class="mainslide" id="slide-1" data-slide="1">
-	</div><!-- /slide1 -->
+	</div>--><!-- /slide1 -->
 
 
-	<!-- === SLide 3 - Portfolio -->
+	<!-- === MAIN SECTION === -->
+<div class="slide story" id="slide-1"  data-slide="1">
+	<div class="container margin-auto-center">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="../Nubeam/images/bg.png">
+				</div>
+				<div class="item">
+					<img src="../Nubeam/images/bg-01.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Left and right controls -->
+	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+	</div>
+</div>
+	<!-- === SLide 2 - Portfolio -->
+
 	<div class="slide story" id="slide-3" data-slide="3">
 		<div class="row">
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p01-large.jpg"><img class="thumb" src="images/portfolio/p01-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p02-large.jpg"><img class="thumb" src="images/portfolio/p02-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p09-large.jpg"><img class="thumb" src="images/portfolio/p09-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p010-large.jpg"><img class="thumb" src="images/portfolio/p10-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p05-large.jpg"><img class="thumb" src="images/portfolio/p05-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p06-large.jpg"><img class="thumb" src="images/portfolio/p06-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p07-large.jpg"><img class="thumb" src="images/portfolio/p07-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p08-large.jpg"><img class="thumb" src="images/portfolio/p08-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p03-large.jpg"><img class="thumb" src="images/portfolio/p03-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p04-large.jpg"><img class="thumb" src="images/portfolio/p04-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p11-large.jpg"><img class="thumb" src="images/portfolio/p11-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p12-large.jpg"><img class="thumb" src="images/portfolio/p12-small.jpg" alt=""></a></div>
+			<div class="col-12 col-sm-6 col-lg-2">
+			<!--	<a data-fancybox-group="portfolio" class="fancybox" onclick="popupCenter('js/ElectricSupply.js', 'myPop1',450,450);" href="js/ElectricSupply.js">-->
+				<a data-fancybox-group="portfolio" class="fancybox" href="javascript:;">
+					<img class="thumb" src="images/portfolio/boxicon-01.png" alt="styleconf"></a></div>
+			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="javascript:;">
+				<img class="thumb" src="images/portfolio/boxicon-02.png" alt=""></a></div>
+			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="javascript:;">
+				<img class="thumb" src="images/portfolio/boxicon-03.png" alt=""></a></div>
+			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="javascript:;">
+				<img class="thumb" src="images/portfolio/boxicon-04.png" alt=""></a></div>
+			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="javascript:;">
+				<img class="thumb" src="images/portfolio/boxicon-05.png" alt=""></a></div>
+			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="javascript:;">
+				<img class="thumb" src="images/portfolio/boxicon-06.png" alt=""></a></div>
+			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="javascript:;">
+				<img class="thumb" src="images/portfolio/boxicon-07.png" alt=""></a></div>
+			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="javascript:;">
+				<img class="thumb" src="images/portfolio/boxicon-08.png" alt=""></a></div>
 		</div><!-- /row -->
 	</div><!-- /slide3 -->
 
+			<!-- /////////// FOOTER /////////// -->
+<div class="slide story" id="slide-6" data-slide="6">
+		<div class="container">
+			<div class="row line-row">
+				<div class="hr">&nbsp;</div>
+			</div>
+			<div class="row title-row text-center">
+				<div class="col-12 font-semibold" style="text-color:white;padding-top:35px;"><p><a target="_blank" href="http://codeforseoul.org">Code For Seoul</a></p></div>
+			</div><!-- /row -->
+
+			<!--
+			<div class="row subtitle-row">
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+				<div class="col-12 col-sm-10 font-light">You can find us literally anywhere, just push a button and we’re there</div>
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+			</div>--><!-- /row -->
+<!--
+				<div class="col-12 col-sm-2 with-hover-text">
+					<p><a target="_blank" href="http://codeforseoul.org/"><i class="icon icon-facebook"></i></a></p>
+					<span class="hover-text font-light ">codeforseoul.org</span></a>
+				</div>--><!-- /col12 -->
+
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+			</div><!-- /row -->
+		</div><!-- /container -->
+</div>
 
 </body>
 
@@ -91,6 +154,10 @@
 	<script src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="fancybox/jquery.fancybox.pack-v=2.1.5.js"></script>
 	<script src="js/script.js"></script>
+	<script src="js/ElectricSupply.js"></script>
+	<script src="js/portfolio.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap-custom"></script>
 
 	<!-- fancybox init -->
 	<script>
@@ -109,5 +176,11 @@
 
 	});
 	</script>
-
+	<script>
+	function popupCenter(url, title, w, h) {
+	var left = (screen.width/2)-(w/2);
+	var top = (screen.height/2)-(h/2);
+	return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+	}
+	</script>
 </html>
