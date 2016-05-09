@@ -16,7 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
+	<link rel="stylesheet" href="mapStyle.css">
 
 	<link rel="prefetch" href="images/zoom.png">
 </head>
@@ -73,10 +73,10 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-					<img src="../Nubeam/images/bg.png">
+					<img src="./images/bg.png">
 				</div>
 				<div class="item">
-					<img src="../Nubeam/images/bg-01.png">
+					<img src="./images/bg-01.png">
 				</div>
 			</div>
 		</div>
@@ -90,7 +90,10 @@
 		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 		<span class="sr-only">Next</span>
 	</a>
-	</div>
+</div>
+
+<div class="slide story" id="slide-2" data-slide="2">
+<div id="map"></div>
 </div>
 	<!-- === SLide 2 - Portfolio -->
 
@@ -157,8 +160,14 @@
 	<script src="js/ElectricSupply.js"></script>
 	<script src="js/portfolio.js"></script>
 	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap-custom"></script>
-
+	<script src="js/bootstrap-custom.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="http://d3js.org/topojson.v1.min.js"></script>
+	<script src="http://d3js.org/queue.v1.min.js"></script>
+	<script src="http://d3-legend.susielu.com/d3-legend.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.7/d3-tip.min.js" type="text/javascript" charset="utf8"></script>
+	<script src="main.js"></script>
+	
 	<!-- fancybox init -->
 	<script>
 	$(document).ready(function(e) {
