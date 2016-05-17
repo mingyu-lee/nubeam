@@ -51,8 +51,8 @@ function drawMap() {
 
     queue()
             .defer(d3.json, "./resources/municipalities-topo-simple.json")
-            //.defer(d3.json, './resources/nabi.json')
-            .defer(d3.json, 'http://128.199.128.104:3001/nabi')
+            .defer(d3.json, './resources/nabi.json')
+            //.defer(d3.json, 'http://128.199.128.104:3001/nabi')
             .await(ready);
 
     function ready(error, kor, powerData) {
